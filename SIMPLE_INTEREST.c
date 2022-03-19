@@ -1,8 +1,8 @@
 #include<stdio.h>
-main()
+int main()
 {
-    int p,t,r,s;
-    scanf("%d%d%d",&p,&t,&r);
-    s=p*t*r/100;
-    printf("%d",s);
+    int a,b,c,si;
+    scanf("%d%d%d",&a,&b,&c);
+    si=a*b*c/100;
+    printf("%d",si);
 }
