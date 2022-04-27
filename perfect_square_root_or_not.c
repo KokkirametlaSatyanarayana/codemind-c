@@ -2,15 +2,15 @@
 #include<math.h>
 int main()
 {
-     int num,sq;
-     scanf("%d",&num);
-     sq=sqrt(num);
-     if(num%(sq*sq)==0)
-     {
-         printf("True");
-     }
-     else
-     {
-         printf("False");
-     }
+    int n,q;
+    scanf("%d",&n);
+    q=sqrt(n);
+    if(q*q==n)
+    {
+        printf("True");
+    }
+    else
+    {
+        printf("False");
+    }
 }
