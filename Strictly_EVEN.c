@@ -3,21 +3,21 @@ int main()
 {
     int size,flag=0;
     scanf("%d",&size);
-    int i,a[size];
+    int arr[size],i;
     for(i=0;i<size;i++)
     {
-        scanf("%d",&a[i]);
+        scanf("%d",&arr[i]);
     }
     for(i=0;i<size;i++)
     {
-        if(a[i]%2==0 && i%2==0)
+        if(arr[i]%2==0 && i%2==0)
         {
-          flag=1;  
+            flag=1;
         }
-        else if(i%2!=0 && a[i]%2==0)
+        else if (arr[i]%2==0 && i%2!=0)
         {
             flag=0;
-        }    
+        }
     }
     if(flag==1)
     {
